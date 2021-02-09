@@ -1,0 +1,51 @@
+.container  {
+  margin-top: 50px;
+}
+
+img {
+  height: 200px;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+}
+
+#lezioni img, #steps img, #why img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-gray {
+  background-color: #F9F9F9;
+  margin-top: 40px;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 767px) {
+  .container  {
+    margin-top: 0;
+  }
+  .container-gray {
+    margin-top: 15px;
+  }
+  #why img {
+    margin-top: 15px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  #lezioni {
+    background-color: #c5c5a7;
+  }
+  #why {
+    background-color: #c5c5a7;
+  }
+
+}
